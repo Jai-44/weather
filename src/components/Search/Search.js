@@ -3,9 +3,18 @@ import "./Search.css";
 
 function Search() {
   return (
-    <div>
-      <p>Search Component</p>
-    </div>
+    <form>
+      <div className="searchBar">
+        <input
+          className="searchInput"
+          type="text"
+          placeholder="Search A Location"
+        />
+        <div className="searchIcon">
+          <span className="material-symbols-outlined">Search</span>
+        </div>
+      </div>
+    </form>
   );
 }
 
